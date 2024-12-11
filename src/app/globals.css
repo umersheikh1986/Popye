@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --font-popeye: 'Heyam', Arial, sans-serif;
+  --popeye2: 'GeistVF', Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-popeye);
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--popeye2), sans-serif;
+  
+}
+
+@font-face {
+  font-family: "Heyam";
+  src: url("./fonts/Heyam.ttf") format("truetype");
+}
