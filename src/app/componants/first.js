@@ -49,20 +49,22 @@ export default function First() {
         {/* Content Section */}
         <div className="space-y-6 text-center lg:text-left">
         
-          <h1 className={`text-gray-900 font-popeye font-extrabold tracking-wide text-4xl lg:text-5xl`}
+          <h1 className={`text-gray-900 font-popeye font-extrabold tracking-wide text-4xl lg:text-6xl`}
                         style={{ fontFamily: "var(--font-popeye), Arial, sans-serif" }} // Inline style for debugging
           >
             <span className={`block  text-[#e64f57]`}
               
             >POPEYE</span>
-            <span className="block text-white lg:text-3xl text-xl">The People’s Coin – Powered by Resilience,</span>
-            <span className="block text-black lg:text-3xl text-xl"> Humor & Unity!
-            </span>
+            <span className="block text-white lg:text-5xl text-xl">The People’s Coin –</span>
           </h1>
-          <p className="text-black font-medium text-md lg:text-lg">
+          <div>
+          <p className="block text-black lg:text-3xl font-semibold text-xl mt-4">Powered by Resilience, Humor & Unity!
+          </p>
+          <p className="text-black font-medium  text-md lg:text-lg">
           Meet Popoyee ($POPO), the meme coin for the strong-hearted! Inspired by the legendary spirit of Popoyee, we’re building a community-driven movement where fun, financial freedom, and togetherness come first. No central authority, no gatekeepers—just pure meme power and the strength of the people!
 
           </p>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
            
             <a
